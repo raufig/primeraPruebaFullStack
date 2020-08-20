@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool</title>
+    <link rel="stylesheet" href="css/Index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Miembros</a></li>
+            <li><a href="#">Albums</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+    </nav>
+    <div class="formulario">
+        <p id="userSpace"></p>
+        <div class="auth">
+            <a id="login-trigger">Login <span> &#x25BC;</span></a>
+            <div id="login-content">
+                <fieldset id="inputs">
+                    <input id="logUser" type="text" name="username" placeholder="Usuario" required>
+                    <input id="logPass" type="password" name="password" placeholder="Contraseña" required>
+                </fieldset>
+                <fieldset id="actions">
+                    <button type="submit" id="submit"  onclick="loginUser()">aceptar</button>
+                    <a href="">Recuperar</a>
+                </fieldset>
+            </div>
+
+            <a id="registr-trigger">Registro <span> &#x25BC;</span></a>
+            <div id="registr-content">
+                    <fieldset id="inputs">
+                        <input id="regUser" type="text" name="username" placeholder="Usuario" required>
+                        <input id="regPass" type="password" name="password" placeholder="Contraseña" required>
+                    </fieldset>
+                    <fieldset id="actions">
+                        <button type="submit" id="submit"  onclick="registerUser()">Registrar</button>
+                    </fieldset>
+            </div> 
+    </div>
+    <footer>
+        <div class="copyright">
+          <p>&copy 2020 - Raul S. Figueroa Pérez</p>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Miembros</a></li>
+                <li><a href="#">Albums</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+              </ul>
+        </div>
+      </footer>
+      <script src="JS/login.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      
+</body>
+</html>

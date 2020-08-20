@@ -1,0 +1,87 @@
+nav{
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    border-radius: 5px ;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+}
+nav ul li a{
+    background: #3399ff;
+    text-decoration: none;
+    font-family: sans-serif ;
+}
+
+body{
+    background-image: url(../img/backgrtound.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+
+.imageband img{
+    opacity: 1;
+}
+
+.container{
+background-color: rgba(255, 251, 251, 0.199);
+display: flex;
+}
+
+.imageband{
+    border-radius: 5px;
+}
+
+.cuerpo{
+    font-family: sans-serif ;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.integrantes{
+    font-family: sans-serif ;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgba(255, 251, 251, 0.199); 
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black; 
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    margin: 2em 0;
+    height: 70px;
+    background-color: rgba(255, 251, 251, 0.199);
+}
+footer  ul{
+    margin: 5;
+    padding: 8;
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+    color: white;
+    
+    
+}
+
+footer ul li{
+    text-decoration: none;
+}
+
+.formulario{
+ background-color: rgba(255, 251, 251, 0.199);   
+}
